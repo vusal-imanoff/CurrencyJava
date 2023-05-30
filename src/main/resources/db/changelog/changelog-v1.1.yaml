@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: 01
+      author: vusal
+      changes:
+        - addColumn:
+            columns:
+              - column:
+                  name: date
+                  type: varchar(250)
+                  constraints:
+                    nullable: false
+            tableName: currencies
