@@ -62,11 +62,7 @@
             <version>1.5.5.Final</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-            <scope>test</scope>
-        </dependency>
+
     </dependencies>
 
     <build>
